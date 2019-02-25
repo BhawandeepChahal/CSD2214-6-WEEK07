@@ -1,12 +1,22 @@
-﻿// Your code here!
-// Your code here!
-function sum()
-{
-    var i = 117;
-    var sum = 0;
-    while (i >= 11) {
-        sum = sum + i;
-        return sum;
-        i = i - 8;
-    }
-}
+﻿var bird = {
+    genus: "corvus",
+    species="corvax",
+    commonName: "raven",
+    callType: "squawky",
+    quote: "Navermore",
+    maxOffspring: 5,
+    noisy: true,
+    deadly: false
+
+};
+
+var bear = {
+    genus: "ursus",
+    species="arctos",
+    commonName: "brown bear",
+    callType: "roar",
+    quote: "",
+    maxOffspring: 3,
+    noisy: true,
+    deadly: true
+};
